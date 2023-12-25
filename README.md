@@ -13,5 +13,6 @@ Teknologi yang digunakan: Java, Scanner, OOP principles.
 Sebuah sistem manajemen gaji karyawan sederhana yang memungkinkan pengguna memasukkan informasi karyawan, menghitung gaji berdasarkan golongan, dan menampilkan total gaji dengan memperhitungkan lembur.
 
 Teknologi yang digunakan: Java, Scanner, OOP principles, Loop.
+### - 3. Etc / Cooming Soon
 
 Feel free to embellish this template with specific details about your project. A well-documented README enhances the accessibility and adoption of your Java code by others.
