@@ -2,11 +2,13 @@
 public class Person {
 	String name;
 	String address;
+	String sex;
 	final String country = "Indonesia";
 	
-	Person(String paramName, String paramAddress) {
+	Person(String paramName, String paramAddress, String paramSex) {
 		name = paramName;
 		address = paramAddress;
+		sex = paramSex;
 		
 	}
 	
@@ -24,4 +26,5 @@ public class Person {
 	void sayAddress(String paramName) {
 		System.out.println("Alamat Saya" + paramName + name);
 	}
+	
 }
