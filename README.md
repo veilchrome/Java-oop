@@ -8,5 +8,10 @@ Selamat datang di portofolio Java saya! Saya adalah seorang pengembang perangkat
 Sebuah sistem manajemen gaji karyawan sederhana yang memungkinkan pengguna memasukkan informasi karyawan, menghitung gaji berdasarkan golongan, dan menampilkan total gaji dengan memperhitungkan lembur.
 
 Teknologi yang digunakan: Java, Scanner, OOP principles.
+### - 2. Buat Piramida / Bintang
+
+Sebuah sistem manajemen gaji karyawan sederhana yang memungkinkan pengguna memasukkan informasi karyawan, menghitung gaji berdasarkan golongan, dan menampilkan total gaji dengan memperhitungkan lembur.
+
+Teknologi yang digunakan: Java, Scanner, OOP principles, Loop.
 
 Feel free to embellish this template with specific details about your project. A well-documented README enhances the accessibility and adoption of your Java code by others.
