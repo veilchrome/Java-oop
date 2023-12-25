@@ -1,3 +1,5 @@
+![Java Logo](https://w7.pngwing.com/pngs/592/145/png-transparent-java-programming-language-programmer-computer-programming-logo-others-text-computer-program-programming-language.png)
+
 # Kumpulan Project Java
 
 Selamat datang di portofolio Java saya! Saya adalah seorang pengembang perangkat lunak yang berfokus pada bahasa pemrograman Java, dan berikut adalah beberapa proyek yang telah saya rancang dan implementasikan.
