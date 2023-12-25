@@ -3,12 +3,13 @@ import java.util.Locale;
 import java.util.Scanner;
 
 public class SisKaryawan {
+	// Menggunakan Double daripada Float agar mendapatkan Hasil yang presisi.
     private static String nama;
-    private static double gaji; // Changed to double for better precision
-    private static double total; // Changed to double for better precision
+    private static double gaji; 
+    private static double total; 
     private static float jamKerja;
-    private static double jamLembur; // Changed to double for better precision
-    private static double upah; // Changed to double for better precision
+    private static double jamLembur; 
+    private static double upah; 
     private static String golongan;
 
     public static void main(String args[]) {
@@ -17,7 +18,7 @@ public class SisKaryawan {
         nama = input1.nextLine();
         golonganKaryawan();
         jamkerjaKaryawan();
-        perhitunganGaji();  // Call the method to display the result
+        perhitunganGaji();  // Memanggil Method yang telah dibuat untuk menampilkan Hasil.
     }
 
     public static void golonganKaryawan() {
@@ -45,9 +46,9 @@ public class SisKaryawan {
     }
 
     public static void jamkerjaKaryawan() {
-        Scanner input3 = new Scanner(System.in);  // Add a new scanner for input3
+        Scanner input3 = new Scanner(System.in);  
         System.out.print("Masukan Jam Kerja Karyawan : ");
-        jamKerja = input3.nextFloat();  // Read the jamKerja input
+        jamKerja = input3.nextFloat();  
         if (jamKerja >= 150) {
             jamLembur = (jamKerja - 150) * upah * 1.25;
             gaji = 150 * upah;
@@ -61,7 +62,7 @@ public class SisKaryawan {
         total = gaji + jamLembur;
 
         // Format the currency using NumberFormat
-        NumberFormat currencyFormat = NumberFormat.getCurrencyInstance(new Locale("id", "ID")); // Indonesian locale
+        NumberFormat currencyFormat = NumberFormat.getCurrencyInstance(new Locale("id", "ID")); // Menggunakan Lokal Indonesia
         String formattedTotal = currencyFormat.format(total);
 
         System.out.println("Gaji yang diterima sdr : " + nama + " adalah = " + formattedTotal);
